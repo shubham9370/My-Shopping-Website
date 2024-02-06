@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ff7b54;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ff5f36;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.products {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.cart {
+    flex: 0 0 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.cart-item {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff7b54;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff5f36;
+}
+
+h1, h2, h3 {
+    font-family: 'Fredoka One', cursive;
+    margin: 0;
+}
+
+h2 {
+    color: #ff7b54;
+}
+
+#cart-items {
+    padding: 0;
+    list-style-type: none;
+}
